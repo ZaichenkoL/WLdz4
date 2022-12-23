@@ -1,286 +1,286 @@
 * {
-    margin: 0;
-    padding: 0;
-    outline: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
 }
 
 body {
-    background-color: #020A18;
+  background-color: #020A18;
 }
 
 .header {
-    background-color: #0a121f;
+  background-color: #0a121f;
 }
 
 .container {
-    margin: 0 auto;
-    width: 1146px;
+  margin: 0 auto;
+  width: 1146px;
 }
 
 .nav {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .header-link {
-    padding: 40px;
-    display: block;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 22px;
-    color: #FFFFFF;
-    text-decoration: none;
+  padding: 40px;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 .header-link:hover {
-    background-color: #3A68B8;
-    border-radius: 5px;
+  background-color: #3A68B8;
+  border-radius: 5px;
 }
 
 .main {
-    margin-top: 160px;
+  margin-top: 160px;
 }
 
 .flex-box {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .next {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 160%;
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    color: #3A68B8;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #3A68B8;
 }
 
 .main-headding {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
-    font-size: 55px;
-    line-height: 130%;  
-    color: #FFFFFF;
-    width: 604px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 55px;
+  line-height: 130%;
+  color: #FFFFFF;
+  width: 604px;
 }
 
 .main-dsc {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 160%;
-    color: #FFFFFF;
-    width: 558px;
-    margin-bottom: 50px;
-    font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  color: #FFFFFF;
+  width: 558px;
+  margin-bottom: 50px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .get {
-    background: #3A68B8;
-    border-radius: 5px;
-    margin-right: 20px;
+  background: #3A68B8;
+  border-radius: 5px;
+  margin-right: 20px;
 }
 
 .button-txt-flex {
-    height: 100%;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 27px;
-    color: #FFFFFF;
-    font-family: 'Open Sans', sans-serif;
-    display: flex;
-    align-items: center;
-    padding: 0 30px;
+  height: 100%;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
 }
 
 .watch {
-    background: #3A68B8;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
+  background: #3A68B8;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
 }
 
 .watch-txt {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 27px;
-    color: #FFFFFF;
-    font-family: 'Open Sans', sans-serif;
-    margin-left: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 10px;
 }
 
 .button-flex {
-    display: flex;
+  display: flex;
 }
 
 .button-txt {
-    padding: 15px 30px;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 27px;
-    color: #FFFFFF;
-    font-family: 'Open Sans', sans-serif;
-    display: flex;
-    align-items: center;
+  padding: 15px 30px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;
 }
 
 .get:hover, .watch:hover {
-    outline: 4px solid #FFFFFF;
+  outline: 4px solid #FFFFFF;
 }
 
 .logo {
-    margin-top: 200px;
+  margin-top: 200px;
 }
 
 .logo-flex {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .banner {
-    margin-top: 160px;
-    margin-bottom: 265px;
+  margin-top: 160px;
+  margin-bottom: 265px;
 }
 
 .banner-txt {
-    width: 485px;
+  width: 485px;
 }
 
 .banner-heading {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    color: #FFFFFF;
-    margin-top: 120px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #FFFFFF;
+  margin-top: 120px;
 }
 
 .banner-dsc {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 26px;
-    color: #FFFFFF;
-    opacity: 0.7;
-    margin-top: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  opacity: 0.7;
+  margin-top: 30px;
 }
 
 .banner-button {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .adv-item {
-    width: 362px;
-    padding: 30px;
-    text-align: center;
-    background: #132035;
-    border-radius: 10px;
-    box-sizing: border-box;
+  width: 362px;
+  padding: 30px;
+  text-align: center;
+  background: #132035;
+  border-radius: 10px;
+  box-sizing: border-box;
 }
 
 .adv-heading {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 31px;
-    color: #FFFFFF;
-    opacity: 0.7;
-    margin-top: 30px;
-    margin: 30px 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 31px;
+  color: #FFFFFF;
+  opacity: 0.7;
+  margin-top: 30px;
+  margin: 30px 0;
 }
 
 .down {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .adv-left {
-    padding: 30px;
-    text-align: center;
-    background: #132035;
-    border-radius: 10px;
-    box-sizing: border-box;
-    width: 755px;
-    margin-top: 30px;
+  padding: 30px;
+  text-align: center;
+  background: #132035;
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: 755px;
+  margin-top: 30px;
 }
 
 .advantages {
-    margin-bottom: 200px;
+  margin-bottom: 200px;
 }
 
 .article {
-    margin-top: 160px;
-    margin-bottom: 200px;
+  margin-top: 160px;
+  margin-bottom: 200px;
 }
 
 .article-headding {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 130%;
-    color: #FFFFFF;
-    width: 604px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 130%;
+  color: #FFFFFF;
+  width: 604px;
 }
 
 .article-dsc {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 160%;
-    color: #FFFFFF;
-    width: 558px;
-    margin-bottom: 50px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 160%;
+  color: #FFFFFF;
+  width: 558px;
+  margin-bottom: 50px;
 }
 
 .footer {
-    margin-top: 221px;
-    padding-top: 48px;
-    margin: 0 auto;
-    background-color: #0a121f;
-    padding-bottom: 30px;
+  margin-top: 221px;
+  padding-top: 48px;
+  margin: 0 auto;
+  background-color: #0a121f;
+  padding-bottom: 30px;
 }
 
 .flex-box footer {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .info-heading {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    color: #FFFFFF;
-    margin-bottom: 33px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  margin-bottom: 33px;
 }
 
 .contact {
-    padding-bottom: 24px;
+  padding-bottom: 24px;
 }
 
 .info-txt {
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    color: #FFFFFF;
-    padding-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  padding-left: 10px;
 }
 
 .about-txt {
-    font-family: 'Roboto', sans-serif;
-    font-style: italic;
-    font-weight: 100;
-    font-size: 14px;
-    line-height: 16px;
-    color: #FFFFFF;
-    opacity: 0.6;
-    width: 261px;
+  font-family: "Roboto", sans-serif;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  opacity: 0.6;
+  width: 261px;
 }
 
 .footer-link {
-    display: flex;
-    margin-top: 24px;
-}
+  display: flex;
+  margin-top: 24px;
+}/*# sourceMappingURL=style.css.map */
