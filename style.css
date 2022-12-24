@@ -4,9 +4,7 @@
   outline: none;
 }
 
-img {
-  max-width: 100%;
-}
+
 
 body {
   background-color: #020A18;
@@ -29,7 +27,7 @@ body {
 .header-link {
   padding: 40px;
   display: block;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -57,14 +55,9 @@ body {
   font-weight: 600;
   font-size: 18px;
   line-height: 160%;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   color: #3A68B8;
-}
-
-.flex-box {
-  flex-direction: column;
-  justify-content: center;
 }
 
 .main-headding {
@@ -83,7 +76,7 @@ body {
   color: #FFFFFF;
   width: 558px;
   margin-bottom: 50px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .get {
@@ -98,7 +91,7 @@ body {
   font-size: 20px;
   line-height: 27px;
   color: #FFFFFF;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   display: flex;
   align-items: center;
   padding: 0 30px;
@@ -116,7 +109,7 @@ body {
   font-size: 20px;
   line-height: 27px;
   color: #FFFFFF;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-left: 10px;
 }
 
@@ -130,7 +123,7 @@ body {
   font-size: 20px;
   line-height: 27px;
   color: #FFFFFF;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   display: flex;
   align-items: center;
 }
@@ -139,7 +132,9 @@ body {
   outline: 4px solid #FFFFFF;
 }
 
-
+.logo {
+  margin-top: 200px;
+}
 
 .logo-flex {
   display: flex;
@@ -156,7 +151,7 @@ body {
 }
 
 .banner-heading {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -165,7 +160,7 @@ body {
 }
 
 .banner-dsc {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 26px;
@@ -188,7 +183,7 @@ body {
 }
 
 .adv-heading {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 25px;
   line-height: 31px;
@@ -222,7 +217,7 @@ body {
 }
 
 .article-headding {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 130%;
@@ -231,7 +226,7 @@ body {
 }
 
 .article-dsc {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 160%;
@@ -254,7 +249,7 @@ body {
 }
 
 .info-heading {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -268,7 +263,7 @@ body {
 }
 
 .info-txt {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -278,7 +273,7 @@ body {
 }
 
 .about-txt {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: italic;
   font-weight: 100;
   font-size: 14px;
@@ -327,6 +322,7 @@ body {
   flex-wrap: wrap;
 }
 }
+
 @media (max-width: 767px) {
 .flex-box {
   flex-direction: column;
@@ -371,12 +367,17 @@ body {
   font-size: 24px;
   width: 100%;
 }
-
 .article-headding {
   font-size: 24px;
   width: 100%;
 }
 .article-dsc {
   width: 100%;
+}
+.article-pic {
+  width: 40%;
+}
+.banner-pic {
+  width: 30%;
 }
 }
