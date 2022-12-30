@@ -17,6 +17,16 @@ body {
 
 .header {
     background-color: $hbc;
+    &__header-link {
+        margin: 500px auto 0;
+        &_green {
+            background-color: #07f427;
+        &_hover:hover {
+            background-color: yellow;
+            border: 2px solid #FFFFFF;
+        }
+        }
+    }
 }
 
 .container {
