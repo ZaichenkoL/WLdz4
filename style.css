@@ -46,9 +46,12 @@ body {
   margin-bottom: 200px;
 }
 
-.flex-box {
-  display: flex;
-  justify-content: space-between;
+.grid-box {
+  display: grid;
+  grid-template-columns: repeat(3, 32%);
+  grid-template-rows: repeat(3, 1 fr);
+  gap: 20px;
+  justify-content: center;
 }
 
 .next {
@@ -205,6 +208,8 @@ body {
   box-sizing: border-box;
   width: 755px;
   margin-top: 30px;
+  grid-column: 1/3;
+  grid-row: 2/4;
 }
 
 .advantages {
