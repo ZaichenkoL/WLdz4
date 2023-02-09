@@ -4,14 +4,22 @@
   outline: none;
 }
 
-
-
 body {
   background-color: #020A18;
 }
 
 .header {
   background-color: #0a121f;
+}
+.header__header-link {
+  margin: 500px auto 0;
+}
+.header__header-link_green {
+  background-color: #07f427;
+}
+.header__header-link_green_hover:hover {
+  background-color: yellow;
+  border: 2px solid #FFFFFF;
 }
 
 .container {
@@ -27,7 +35,7 @@ body {
 .header-link {
   padding: 40px;
   display: block;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
@@ -43,31 +51,27 @@ body {
 
 .main {
   margin-top: 160px;
-  margin-bottom: 200px;
 }
 
-.grid-box {
-  display: grid;
-  grid-template-columns: repeat(3, 32%);
-  grid-template-rows: repeat(3, 1 fr);
-  gap: 20px;
-  justify-content: center;
+.flex-box {
+  display: flex;
+  justify-content: space-between;
 }
 
 .next {
   font-weight: 600;
   font-size: 18px;
   line-height: 160%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   color: #3A68B8;
 }
 
 .main-headding {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 800;
   font-size: 55px;
-  line-height: 130%;  
+  line-height: 130%;
   color: #FFFFFF;
   width: 604px;
 }
@@ -79,7 +83,7 @@ body {
   color: #FFFFFF;
   width: 558px;
   margin-bottom: 50px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .get {
@@ -94,7 +98,7 @@ body {
   font-size: 20px;
   line-height: 27px;
   color: #FFFFFF;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   display: flex;
   align-items: center;
   padding: 0 30px;
@@ -112,7 +116,7 @@ body {
   font-size: 20px;
   line-height: 27px;
   color: #FFFFFF;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   margin-left: 10px;
 }
 
@@ -126,7 +130,7 @@ body {
   font-size: 20px;
   line-height: 27px;
   color: #FFFFFF;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   display: flex;
   align-items: center;
 }
@@ -154,7 +158,7 @@ body {
 }
 
 .banner-heading {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
@@ -163,7 +167,7 @@ body {
 }
 
 .banner-dsc {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 26px;
@@ -186,7 +190,7 @@ body {
 }
 
 .adv-heading {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 25px;
   line-height: 31px;
@@ -208,8 +212,6 @@ body {
   box-sizing: border-box;
   width: 755px;
   margin-top: 30px;
-  grid-column: 1/3;
-  grid-row: 2/4;
 }
 
 .advantages {
@@ -222,7 +224,7 @@ body {
 }
 
 .article-headding {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
   font-size: 40px;
   line-height: 130%;
@@ -231,7 +233,7 @@ body {
 }
 
 .article-dsc {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 160%;
@@ -254,7 +256,7 @@ body {
 }
 
 .info-heading {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -268,7 +270,7 @@ body {
 }
 
 .info-txt {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -278,7 +280,7 @@ body {
 }
 
 .about-txt {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: italic;
   font-weight: 100;
   font-size: 14px;
@@ -291,8 +293,7 @@ body {
 .footer-link {
   display: flex;
   margin-top: 24px;
-}
-
+}/*# sourceMappingURL=style.css.map */
 @media (max-width: 1024px) {
   .flex-box {
     flex-direction: column;
